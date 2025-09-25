@@ -10,7 +10,7 @@ import com.smart_habit_tracker20.DTOs.UserResponse;
 import com.smart_habit_tracker20.services.UserService;
 
 @RestController
-@RequestMapping("/api/users")
+@RequestMapping("/api/auth")
 @RequiredArgsConstructor
 public class UserController {
 
